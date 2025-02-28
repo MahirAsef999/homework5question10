@@ -4,5 +4,5 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-#send everything else to the index page
+#send everything else to the question10 backend page
 RewriteRule ^(.*)$ homework-5-question-10.php?url=$1 [L,QSA]
